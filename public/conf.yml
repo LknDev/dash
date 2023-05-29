@@ -1,5 +1,5 @@
 appConfig:
-  theme: colorful
+  theme: matrix
   layout: auto
   iconSize: medium
   language: es
@@ -57,14 +57,14 @@ sections:
       - title: Portainer - LknMini
         description: ''
         icon: fas fa-container-storage
-        url: lknmini.local:9443
+        url: https://lknmini.local:9443
         target: newtab
         color: '#1292ee'
         id: 0_600_portainerlknmini
       - title: Portainer - LknDatabase
         description: ''
         icon: fas fa-container-storage
-        url: lkndatabase.local:9000
+        url: http://lkndatabase.local:9000
         target: newtab
         color: '#1292ee'
         id: 1_600_portainerlkndatabase
@@ -85,10 +85,10 @@ sections:
     items:
       - title: Mail - Roundcube
         icon: fas fa-envelope
-        url: mail.luken.one
+        url: https://mail.luken.one
         target: newtab
-        color: '#32c5a6'
         statusCheck: true
+        color: '#32c5a6'
         id: 0_705_mailroundcube
   - name: Hosting
     icon: fas fa-server
@@ -101,25 +101,25 @@ sections:
     items:
       - title: HestiaCP
         icon: fas fa-server
-        url: cp.luken.one
+        url: https://cp.luken.one
         target: newtab
         color: '#cc3366'
         id: 0_732_hestiacp
       - title: Cloudflare
         icon: fas fa-cloud
-        url: das.cloudflare.com
+        url: https://dash.cloudflare.com
         target: newtab
         color: '#f58a0f'
         id: 1_732_cloudflare
       - title: phpMyAdmin - HestiaCP
         icon: fab fa-php
-        url: cp.luken.one/pma
+        url: https://cp.luken.one/pma
         target: newtab
         color: ' #da6814'
         id: 2_732_phpmyadminhestiacp
       - title: File manager - HestiaCP
         icon: fas fa-folder
-        url: cp.luken.one:8083/fm
+        url: https://cp.luken.one:8083/fm
         target: newtab
         id: 3_732_filemanagerhestiacp
   - name: Storage
@@ -133,14 +133,14 @@ sections:
     items:
       - title: LknCloud - Nextcloud
         icon: fas fa-cloud
-        url: cloud.luken.one
+        url: https://cloud.luken.one
         target: newtab
-        color: '#5aadfe'
         statusCheck: true
+        color: '#5aadfe'
         id: 0_725_lkncloudnextcloud
       - title: Static - luken.one
         icon: fas fa-bars
-        url: static.luken.one
+        url: https://static.luken.one
         target: newtab
         statusCheck: true
         id: 1_725_staticlukenone
@@ -155,13 +155,13 @@ sections:
     items:
       - title: WordPress
         icon: fab fa-wordpress
-        url: wp.luken.one
+        url: https://wp.luken.one
         target: newtab
         statusCheck: true
         id: 0_271_wordpress
       - title: Documentation
         icon: fas fa-file
-        url: docs.luken.one
+        url: https://docs.luken.one
         target: newtab
         statusCheck: true
         id: 1_271_documentation
