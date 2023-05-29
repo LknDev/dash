@@ -173,8 +173,9 @@ sections:
       cols: 1
       collapsed: false
       hideForGuests: false
-    type: clock
-      options:
-        timeZone: Europe/Madrid
-        format: en-GB
-        hideDate: false
+    widgets:
+      - type: clock
+         options:
+            timeZone: Europe/Madrid
+            format: en-GB
+            hideDate: false
