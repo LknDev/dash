@@ -52,6 +52,7 @@ sections:
         url: mail.luken.one
         target: newtab
         color: '#32c5a6'
+        statusCheck: true
         id: 0_705_mailroundcube
   - name: Hosting
     icon: fas fa-server
@@ -99,11 +100,13 @@ sections:
         url: cloud.luken.one
         target: newtab
         color: '#5aadfe'
+        statusCheck: true
         id: 0_725_lkncloudnextcloud
       - title: Static - luken.one
         icon: fas fa-bars
         url: static.luken.one
         target: newtab
+        statusCheck: true
         id: 1_725_staticlukenone
   - name: Lab
     icon: fas fa-flask
@@ -118,9 +121,11 @@ sections:
         icon: fab fa-wordpress
         url: wp.luken.one
         target: newtab
+        statusCheck: true
         id: 0_271_wordpress
       - title: Documentation
         icon: fas fa-file
         url: docs.luken.one
         target: newtab
+        statusCheck: true
         id: 1_271_documentation
