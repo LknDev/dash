@@ -177,7 +177,7 @@ sections:
       - title: Clock
         type: clock
         options:
-        timeZone: Europe/Madrid
-        format: en-GB
-        hideDate: false
+          timeZone: Europe/Madrid
+          format: en-GB
+          hideDate: false
         id: 0_399_clock
