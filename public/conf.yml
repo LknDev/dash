@@ -51,6 +51,13 @@ pageInfo:
       target: newtab
   footerText: ''
 sections:
+  - name: Time
+    widgets:
+      - type: clock
+        options:
+          timeZone: Europe/Madrid
+          format: es-ES
+          hideDate: false
   - name: Docker
     icon: fab fa-docker
     items:
@@ -165,10 +172,4 @@ sections:
         target: newtab
         statusCheck: true
         id: 1_271_documentation
-  - name: Time
-    widgets:
-      - type: clock
-        options:
-          timeZone: Europe/Madrid
-          format: es-ES
-          hideDate: false
+  
