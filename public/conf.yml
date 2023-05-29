@@ -166,16 +166,9 @@ sections:
         statusCheck: true
         id: 1_271_documentation
   - name: Time
-    icon: fas fa-clock
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
     widgets:
       - type: clock
-         options:
-            timeZone: Europe/Madrid
-            format: en-GB
-            hideDate: false
+        options:
+          timeZone: Europe/Madrid
+          format: es-ES
+          hideDate: false
