@@ -165,3 +165,19 @@ sections:
         target: newtab
         statusCheck: true
         id: 1_271_documentation
+  - name: Time
+    icon: fas fa-clock
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Clock
+        type: clock
+        options:
+        timeZone: Europe/Madrid
+        format: en-GB
+        hideDate: false
+        id: 0_399_clock
