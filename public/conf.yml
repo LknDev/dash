@@ -80,6 +80,11 @@ sections:
         target: newtab
         color: ' #da6814'
         id: 2_732_phpmyadminhestiacp
+      - title: File manager - HestiaCP
+        icon: fas fa-folder
+        url: cp.luken.one:8083/fm
+        target: newtab
+        id: 3_732_filemanagerhestiacp
   - name: Storage
     icon: fas fa-cloud
     displayData:
@@ -100,3 +105,22 @@ sections:
         url: static.luken.one
         target: newtab
         id: 1_725_staticlukenone
+  - name: Lab
+    icon: fas fa-flask
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: WordPress
+        icon: fab fa-wordpress
+        url: wp.luken.one
+        target: newtab
+        id: 0_271_wordpress
+      - title: Documentation
+        icon: fas fa-file
+        url: docs.luken.one
+        target: newtab
+        id: 1_271_documentation
