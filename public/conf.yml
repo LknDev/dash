@@ -58,6 +58,7 @@ sections:
           timeZone: Europe/Madrid
           format: es-ES
           hideDate: false
+        id: 0_399_clock
   - name: Docker
     icon: fab fa-docker
     items:
@@ -151,6 +152,11 @@ sections:
         target: newtab
         statusCheck: true
         id: 1_725_staticlukenone
+      - title: Duplicati - LknDatabase
+        icon: fas fa-clock
+        url: http://lkndatabase.local:8200
+        target: newtab
+        id: 2_725_duplicatilkndatabase
   - name: Lab
     icon: fas fa-flask
     displayData:
@@ -172,4 +178,18 @@ sections:
         target: newtab
         statusCheck: true
         id: 1_271_documentation
-  
+      - title: phpMyAdmin (No Storage)
+        icon: fab fa-php
+        url: http://lkndatabase.local:99
+        target: newtab
+        id: 2_271_phpmyadminnostorage
+      - title: Code Server
+        icon: fas fa-code
+        url: http://lkndatabase.local:8443
+        target: newtab
+        id: 3_271_codeserver
+      - title: YouTubeDL
+        icon: fab fa-youtube
+        url: http://lkndatabase.local:8998
+        target: newtab
+        id: 4_271_youtubedl
